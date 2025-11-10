@@ -1,1 +1,3 @@
-comandos arch linux
+los siguientes comandos se debe ejecutar en orden :
+
+sudo pacman -Syu
