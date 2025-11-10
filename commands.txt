@@ -1,3 +1,13 @@
 los siguientes comandos se debe ejecutar en orden :
 
-sudo pacman -Syu
+sudo pacman -Syun
+sudo pacman -S hyprland firefox kitty ranger
+sudo pacman -S --needed hyprland alacritty wofi firefox \
+mesa xorg-xwayland networkmanage
+sudo systemctl enable --now NetworkManager
+mkdir -p ~/.config/hypr
+cp /usr/share/doc/hyprland/hyprland.conf.example ~/.config/hypr/hyprland.conf
+nvim ~/.config/hypr/hyprland.confn
+$terminal = alacritty
+Hyprland
+
